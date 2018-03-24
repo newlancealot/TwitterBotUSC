@@ -1,15 +1,14 @@
 # Dependencies
 import tweepy
 import json
-import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 import random
-import time
+import os
+
 
 # Import and Initialize Sentiment Analyzer
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-analyzer = SentimentIntensityAnalyzer()
+#from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+#analyzer = SentimentIntensityAnalyzer()
 
 # Twitter API Keys. Place your keys here.
 #from config import api_keyTwitter
